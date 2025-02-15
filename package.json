@@ -1,0 +1,22 @@
+{
+  "name": "discord-textbot-chatter",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build-and-start": "tsc && node ./dist/index.js",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "EngJV",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.9",
+    "typescript": "^5.7.3"
+  }
+}
